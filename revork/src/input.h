@@ -16,7 +16,7 @@ static void key_callback(GLFWwindow* window, int key, int scancode, int action, 
 
 static void init_input_callbacks(GLFWwindow *window) {
 
-  glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);  
+  glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);  
   glfwSetCursorPosCallback(window, cursor_position_callback);
   glfwSetCursorEnterCallback(window, cursor_enter_callback);
   glfwSetMouseButtonCallback(window, mouse_button_callback);
@@ -44,15 +44,22 @@ static void process_inputs(GLFWwindow *window)
 }
 
 static void key_callback(GLFWwindow *window, int key, int scancode, int action, int mods)
-{
+{   
+    // Toggle Editor mode
     if (key == GLFW_KEY_I && action == GLFW_PRESS) 
     {
-        show_menu ^= 1;  
+        edit_mode ^= 1;  
         
-        if (show_menu)
+        if (edit_mode)
             glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);
         else
             glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED); 
+    }
+
+    // Hide UI
+    if (key == GLFW_KEY_H && action == GLFW_PRESS) 
+    {
+        show_ui ^= 1;
     }
     
     // IMGUI stuff
@@ -87,8 +94,8 @@ static void cursor_position_callback(GLFWwindow *window, double xpos, double ypo
     last_x = xpos;
     last_y = ypos;
 
-    if (show_menu) return;
-
+    // dont update the free look camera if in edit mode
+    if (edit_mode) return;
     camera.process_mouse_movement(xoffset, yoffset);
 }
 static void cursor_enter_callback(GLFWwindow *window, int entered) {}

@@ -113,7 +113,7 @@ void Revork::run()
   auto window = window_manager.window;
   while (!glfwWindowShouldClose(window))
   {
-    glfwPollEvents();
+    glfwWaitEvents();
   }
   app_is_running = false;
   draw_thread.join();
@@ -130,18 +130,25 @@ void Revork::draw_loop()
     process_inputs(window);
     renderer.render();
 
-    if (show_menu) {
+    if (show_ui)
+    {
       ImGui::Begin("Menu");
-      ImGui::Text("%d fps %.3f ms", (int)ImGui::GetIO().Framerate, 1000.0f / ImGui::GetIO().Framerate);
+      ImGui::Text("camera mode: %s", (edit_mode) ? "editor" : "free");
+      ImGui::SliderFloat("", &camera.movement_speed, 0.01f, 100.0f, "camera speed");
+      ImGui::Separator();
 
+      ImGui::Text("%d fps %.3f ms", (int)ImGui::GetIO().Framerate, 1000.0f / ImGui::GetIO().Framerate);
       ImGui::Text("window: %dx%d", window_width, window_height);      
       ImGui::Text("framebuffer: %dx%d", framebuffer_width, framebuffer_height);      
-    
+      ImGui::Separator();
+
+      
       if (ImGui::Button("Quit")) {
         glfwSetWindowShouldClose(window, true);        
       }
+
       ImGui::End();
-      ImGui::Render();      
+      ImGui::Render();
     }
     
     glfwSwapBuffers(window);

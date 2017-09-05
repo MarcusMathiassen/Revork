@@ -1,5 +1,6 @@
 #pragma once
-extern bool show_menu;
+extern bool edit_mode;
+extern bool show_ui;
 extern int window_width;
 extern int window_height;
 extern int framebuffer_width;

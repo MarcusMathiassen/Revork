@@ -10,14 +10,15 @@ void Renderer::render() {
   glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
   camera.update();
   
-  skybox.draw();
-
-
+  
+  
   glEnable(GL_CULL_FACE);
   for (auto &entity: entities) {
     entity->update();
     entity->draw();
   }
+  
+  skybox.draw();
 }
 
 

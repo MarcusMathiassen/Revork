@@ -13,5 +13,5 @@ void main()
     vec3 unprojected = (inverseProjection * vec4(position,1)).xyz;
     eyeDirection = inverseModelview * unprojected;
 
-    gl_Position = vec4(position,1);
+    gl_Position = vec4(position,1).xyww;
 }  
