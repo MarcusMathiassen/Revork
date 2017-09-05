@@ -1,0 +1,3 @@
+/Users/marcusmathiassen/Revork/build/CMakeFiles/rebuild_cache.dir
+/Users/marcusmathiassen/Revork/build/CMakeFiles/edit_cache.dir
+/Users/marcusmathiassen/Revork/build/CMakeFiles/revork.dir
