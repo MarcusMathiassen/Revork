@@ -126,20 +126,22 @@ void Revork::draw_loop()
   while (app_is_running)
   {    
     ImGui_ImplGlfwGL3_NewFrame();
-    
-    process_inputs(window);
 
+    process_inputs(window);
     renderer.render();
 
-    if (config::show_menu) {
+    if (show_menu) {
       ImGui::Begin("Menu");
       ImGui::Text("%d fps %.3f ms", (int)ImGui::GetIO().Framerate, 1000.0f / ImGui::GetIO().Framerate);
-      ImGui::Separator();      
+
+      ImGui::Text("window: %dx%d", window_width, window_height);      
+      ImGui::Text("framebuffer: %dx%d", framebuffer_width, framebuffer_height);      
+    
       if (ImGui::Button("Quit")) {
         glfwSetWindowShouldClose(window, true);        
       }
       ImGui::End();
-      ImGui::Render();
+      ImGui::Render();      
     }
     
     glfwSwapBuffers(window);

@@ -17,6 +17,6 @@ public:
   void init();
   void shutdown();
   void render();
-
+  
   void set_skybox(const std::vector<std::string> &faces);
 };

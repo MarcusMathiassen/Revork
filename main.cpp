@@ -1,9 +1,6 @@
 #define STB_IMAGE_IMPLEMENTATION
 #include "revork/revork.h"
-//#include "../dep/universal/draw_text.h"
 
-// GameObject sphere;
-// GameObject cube;
 unsigned int font;
 
 int main() {
@@ -64,11 +61,7 @@ int main() {
   };
   revork.renderer.set_skybox(faces);
 
-  //font_renderer::init();  
-  //font = font_renderer::load_font("/System/Library/Fonts/LucidaGrande.ttc", 48);
-
   revork.run();
   revork.shutdown();
-  //font_renderer::shutdown();
   
 }

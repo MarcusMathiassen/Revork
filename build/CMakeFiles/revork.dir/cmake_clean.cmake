@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/revork.dir/revork/src/camera.cpp.o"
+  "CMakeFiles/revork.dir/revork/src/config.cpp.o"
   "CMakeFiles/revork.dir/revork/src/imgui.cpp.o"
   "CMakeFiles/revork.dir/revork/src/imgui_draw.cpp.o"
   "CMakeFiles/revork.dir/revork/src/imgui_impl_glfw_gl3.cpp.o"

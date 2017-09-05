@@ -54,10 +54,10 @@ RM = /usr/local/Cellar/cmake/3.9.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/marcusmathiassen/Revork
+CMAKE_SOURCE_DIR = /Users/mathiassen/Revork
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/marcusmathiassen/Revork/build
+CMAKE_BINARY_DIR = /Users/mathiassen/Revork/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/revork.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /Users/marcusmathiassen/Revork/build
 CMakeFiles/revork.dir/all:
 	$(MAKE) -f CMakeFiles/revork.dir/build.make CMakeFiles/revork.dir/depend
 	$(MAKE) -f CMakeFiles/revork.dir/build.make CMakeFiles/revork.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/marcusmathiassen/Revork/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target revork"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mathiassen/Revork/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target revork"
 .PHONY : CMakeFiles/revork.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/revork.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/revork.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/marcusmathiassen/Revork/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mathiassen/Revork/build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/revork.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/marcusmathiassen/Revork/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mathiassen/Revork/build/CMakeFiles 0
 .PHONY : CMakeFiles/revork.dir/rule
 
 # Convenience name for target.

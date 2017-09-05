@@ -19,6 +19,9 @@ CMakeFiles/revork.dir/main.cpp.o: ../revork/revork.h
 CMakeFiles/revork.dir/revork/src/camera.cpp.o: ../revork/src/camera.cpp
 CMakeFiles/revork.dir/revork/src/camera.cpp.o: ../revork/src/camera.h
 
+CMakeFiles/revork.dir/revork/src/config.cpp.o: ../revork/src/config.cpp
+CMakeFiles/revork.dir/revork/src/config.cpp.o: ../revork/src/config.h
+
 CMakeFiles/revork.dir/revork/src/imgui.cpp.o: ../revork/src/imconfig.h
 CMakeFiles/revork.dir/revork/src/imgui.cpp.o: ../revork/src/imgui.cpp
 CMakeFiles/revork.dir/revork/src/imgui.cpp.o: ../revork/src/imgui.h
@@ -42,6 +45,8 @@ CMakeFiles/revork.dir/revork/src/renderer/renderer.cpp.o: ../revork/src/utility.
 CMakeFiles/revork.dir/revork/src/renderer/renderer.cpp.o: ../revork/dep/universal/stb_image.h
 CMakeFiles/revork.dir/revork/src/renderer/renderer.cpp.o: ../revork/src/camera.h
 CMakeFiles/revork.dir/revork/src/renderer/renderer.cpp.o: ../revork/src/entity/entity.h
+CMakeFiles/revork.dir/revork/src/renderer/renderer.cpp.o: ../revork/src/imconfig.h
+CMakeFiles/revork.dir/revork/src/renderer/renderer.cpp.o: ../revork/src/imgui.h
 CMakeFiles/revork.dir/revork/src/renderer/renderer.cpp.o: ../revork/src/renderer/renderer.cpp
 CMakeFiles/revork.dir/revork/src/renderer/renderer.cpp.o: ../revork/src/renderer/renderer.h
 CMakeFiles/revork.dir/revork/src/renderer/renderer.cpp.o: ../revork/src/renderer/shader.h
@@ -90,5 +95,8 @@ CMakeFiles/revork.dir/revork/src/revork.cpp.o: /usr/local/include/freetype2/ft2b
 
 CMakeFiles/revork.dir/revork/src/window_manager.cpp.o: ../revork/src/./camera.h
 CMakeFiles/revork.dir/revork/src/window_manager.cpp.o: ../revork/src/./window_manager.h
+CMakeFiles/revork.dir/revork/src/window_manager.cpp.o: ../revork/src/config.h
+CMakeFiles/revork.dir/revork/src/window_manager.cpp.o: ../revork/src/imconfig.h
+CMakeFiles/revork.dir/revork/src/window_manager.cpp.o: ../revork/src/imgui.h
 CMakeFiles/revork.dir/revork/src/window_manager.cpp.o: ../revork/src/window_manager.cpp
 

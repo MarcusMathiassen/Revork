@@ -14,9 +14,6 @@ class WindowManager {
 
 public:
   GLFWwindow *window;
-  int window_width{1280}, window_height{720};
-  std::string window_title{ "Revork" } ;
-
   void init();
   void shutdown();
 };

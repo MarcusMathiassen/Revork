@@ -1,4 +1,4 @@
-# Install script for directory: /Users/marcusmathiassen/Revork
+# Install script for directory: /Users/mathiassen/Revork
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/marcusmathiassen/Revork/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/mathiassen/Revork/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

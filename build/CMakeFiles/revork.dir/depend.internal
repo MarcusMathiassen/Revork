@@ -14,56 +14,61 @@ CMakeFiles/revork.dir/main.cpp.o
  ../revork/src/transform.h
  ../revork/src/utility.h
  ../revork/src/window_manager.h
- /Users/marcusmathiassen/Revork/main.cpp
- /Users/marcusmathiassen/Revork/revork/revork.h
+ /Users/mathiassen/Revork/main.cpp
+ /Users/mathiassen/Revork/revork/revork.h
 CMakeFiles/revork.dir/revork/src/camera.cpp.o
- /Users/marcusmathiassen/Revork/revork/src/camera.cpp
- /Users/marcusmathiassen/Revork/revork/src/camera.h
+ /Users/mathiassen/Revork/revork/src/camera.cpp
+ /Users/mathiassen/Revork/revork/src/camera.h
+CMakeFiles/revork.dir/revork/src/config.cpp.o
+ /Users/mathiassen/Revork/revork/src/config.cpp
+ /Users/mathiassen/Revork/revork/src/config.h
 CMakeFiles/revork.dir/revork/src/imgui.cpp.o
- /Users/marcusmathiassen/Revork/revork/src/imconfig.h
- /Users/marcusmathiassen/Revork/revork/src/imgui.cpp
- /Users/marcusmathiassen/Revork/revork/src/imgui.h
- /Users/marcusmathiassen/Revork/revork/src/imgui_internal.h
- /Users/marcusmathiassen/Revork/revork/src/stb_textedit.h
+ /Users/mathiassen/Revork/revork/src/imconfig.h
+ /Users/mathiassen/Revork/revork/src/imgui.cpp
+ /Users/mathiassen/Revork/revork/src/imgui.h
+ /Users/mathiassen/Revork/revork/src/imgui_internal.h
+ /Users/mathiassen/Revork/revork/src/stb_textedit.h
 CMakeFiles/revork.dir/revork/src/imgui_draw.cpp.o
- /Users/marcusmathiassen/Revork/revork/src/imconfig.h
- /Users/marcusmathiassen/Revork/revork/src/imgui.h
- /Users/marcusmathiassen/Revork/revork/src/imgui_draw.cpp
- /Users/marcusmathiassen/Revork/revork/src/imgui_internal.h
- /Users/marcusmathiassen/Revork/revork/src/stb_rect_pack.h
- /Users/marcusmathiassen/Revork/revork/src/stb_textedit.h
- /Users/marcusmathiassen/Revork/revork/src/stb_truetype.h
+ /Users/mathiassen/Revork/revork/src/imconfig.h
+ /Users/mathiassen/Revork/revork/src/imgui.h
+ /Users/mathiassen/Revork/revork/src/imgui_draw.cpp
+ /Users/mathiassen/Revork/revork/src/imgui_internal.h
+ /Users/mathiassen/Revork/revork/src/stb_rect_pack.h
+ /Users/mathiassen/Revork/revork/src/stb_textedit.h
+ /Users/mathiassen/Revork/revork/src/stb_truetype.h
 CMakeFiles/revork.dir/revork/src/imgui_impl_glfw_gl3.cpp.o
- /Users/marcusmathiassen/Revork/revork/src/imconfig.h
- /Users/marcusmathiassen/Revork/revork/src/imgui.h
- /Users/marcusmathiassen/Revork/revork/src/imgui_impl_glfw_gl3.cpp
- /Users/marcusmathiassen/Revork/revork/src/imgui_impl_glfw_gl3.h
+ /Users/mathiassen/Revork/revork/src/imconfig.h
+ /Users/mathiassen/Revork/revork/src/imgui.h
+ /Users/mathiassen/Revork/revork/src/imgui_impl_glfw_gl3.cpp
+ /Users/mathiassen/Revork/revork/src/imgui_impl_glfw_gl3.h
 CMakeFiles/revork.dir/revork/src/renderer/renderer.cpp.o
  ../revork/src/utility.h
- /Users/marcusmathiassen/Revork/revork/dep/universal/stb_image.h
- /Users/marcusmathiassen/Revork/revork/src/camera.h
- /Users/marcusmathiassen/Revork/revork/src/entity/entity.h
- /Users/marcusmathiassen/Revork/revork/src/renderer/renderer.cpp
- /Users/marcusmathiassen/Revork/revork/src/renderer/renderer.h
- /Users/marcusmathiassen/Revork/revork/src/renderer/shader.h
- /Users/marcusmathiassen/Revork/revork/src/renderer/skybox.h
- /Users/marcusmathiassen/Revork/revork/src/renderer/texture.h
+ /Users/mathiassen/Revork/revork/dep/universal/stb_image.h
+ /Users/mathiassen/Revork/revork/src/camera.h
+ /Users/mathiassen/Revork/revork/src/entity/entity.h
+ /Users/mathiassen/Revork/revork/src/imconfig.h
+ /Users/mathiassen/Revork/revork/src/imgui.h
+ /Users/mathiassen/Revork/revork/src/renderer/renderer.cpp
+ /Users/mathiassen/Revork/revork/src/renderer/renderer.h
+ /Users/mathiassen/Revork/revork/src/renderer/shader.h
+ /Users/mathiassen/Revork/revork/src/renderer/skybox.h
+ /Users/mathiassen/Revork/revork/src/renderer/texture.h
 CMakeFiles/revork.dir/revork/src/renderer/shader.cpp.o
  ../revork/src/utility.h
- /Users/marcusmathiassen/Revork/revork/src/renderer/shader.cpp
- /Users/marcusmathiassen/Revork/revork/src/renderer/shader.h
+ /Users/mathiassen/Revork/revork/src/renderer/shader.cpp
+ /Users/mathiassen/Revork/revork/src/renderer/shader.h
 CMakeFiles/revork.dir/revork/src/renderer/skybox.cpp.o
  ../revork/src/utility.h
- /Users/marcusmathiassen/Revork/revork/dep/universal/stb_image.h
- /Users/marcusmathiassen/Revork/revork/src/camera.h
- /Users/marcusmathiassen/Revork/revork/src/renderer/shader.h
- /Users/marcusmathiassen/Revork/revork/src/renderer/skybox.cpp
- /Users/marcusmathiassen/Revork/revork/src/renderer/skybox.h
- /Users/marcusmathiassen/Revork/revork/src/renderer/texture.h
+ /Users/mathiassen/Revork/revork/dep/universal/stb_image.h
+ /Users/mathiassen/Revork/revork/src/camera.h
+ /Users/mathiassen/Revork/revork/src/renderer/shader.h
+ /Users/mathiassen/Revork/revork/src/renderer/skybox.cpp
+ /Users/mathiassen/Revork/revork/src/renderer/skybox.h
+ /Users/mathiassen/Revork/revork/src/renderer/texture.h
 CMakeFiles/revork.dir/revork/src/renderer/texture.cpp.o
- /Users/marcusmathiassen/Revork/revork/dep/universal/stb_image.h
- /Users/marcusmathiassen/Revork/revork/src/renderer/texture.cpp
- /Users/marcusmathiassen/Revork/revork/src/renderer/texture.h
+ /Users/mathiassen/Revork/revork/dep/universal/stb_image.h
+ /Users/mathiassen/Revork/revork/src/renderer/texture.cpp
+ /Users/mathiassen/Revork/revork/src/renderer/texture.h
 CMakeFiles/revork.dir/revork/src/revork.cpp.o
  ../revork/dep/universal/stb_image.h
  ../revork/src/camera.h
@@ -77,18 +82,21 @@ CMakeFiles/revork.dir/revork/src/revork.cpp.o
  ../revork/src/transform.h
  ../revork/src/utility.h
  ../revork/src/window_manager.h
- /Users/marcusmathiassen/Revork/revork/dep/universal/draw_text.h
- /Users/marcusmathiassen/Revork/revork/revork.h
- /Users/marcusmathiassen/Revork/revork/src/camera.h
- /Users/marcusmathiassen/Revork/revork/src/config.h
- /Users/marcusmathiassen/Revork/revork/src/imconfig.h
- /Users/marcusmathiassen/Revork/revork/src/imgui.h
- /Users/marcusmathiassen/Revork/revork/src/imgui_impl_glfw_gl3.h
- /Users/marcusmathiassen/Revork/revork/src/input.h
- /Users/marcusmathiassen/Revork/revork/src/revork.cpp
+ /Users/mathiassen/Revork/revork/dep/universal/draw_text.h
+ /Users/mathiassen/Revork/revork/revork.h
+ /Users/mathiassen/Revork/revork/src/camera.h
+ /Users/mathiassen/Revork/revork/src/config.h
+ /Users/mathiassen/Revork/revork/src/imconfig.h
+ /Users/mathiassen/Revork/revork/src/imgui.h
+ /Users/mathiassen/Revork/revork/src/imgui_impl_glfw_gl3.h
+ /Users/mathiassen/Revork/revork/src/input.h
+ /Users/mathiassen/Revork/revork/src/revork.cpp
  /usr/local/include/freetype2/freetype/config/ftheader.h
  /usr/local/include/freetype2/ft2build.h
 CMakeFiles/revork.dir/revork/src/window_manager.cpp.o
- /Users/marcusmathiassen/Revork/revork/src/./camera.h
- /Users/marcusmathiassen/Revork/revork/src/./window_manager.h
- /Users/marcusmathiassen/Revork/revork/src/window_manager.cpp
+ /Users/mathiassen/Revork/revork/src/./camera.h
+ /Users/mathiassen/Revork/revork/src/./window_manager.h
+ /Users/mathiassen/Revork/revork/src/config.h
+ /Users/mathiassen/Revork/revork/src/imconfig.h
+ /Users/mathiassen/Revork/revork/src/imgui.h
+ /Users/mathiassen/Revork/revork/src/window_manager.cpp

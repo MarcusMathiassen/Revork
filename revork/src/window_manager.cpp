@@ -1,6 +1,8 @@
 #include "./window_manager.h"
 
 #include "./camera.h"
+#include "imgui.h"
+#include "config.h"
 
 #include <iostream>
 #include <string>
@@ -28,7 +30,7 @@ void WindowManager::init() {
   glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 #endif
 
-  window = glfwCreateWindow(window_width, window_height, window_title.c_str(), nullptr, nullptr);
+  window = glfwCreateWindow(1280, 720, "Revork", nullptr, nullptr);
   glfwMakeContextCurrent(window);
 
   glfwSetWindowIconifyCallback(window, window_iconify_callback);
@@ -45,10 +47,17 @@ void WindowManager::init() {
   int width, height;
   glfwGetFramebufferSize(window, &width, &height);
   glViewport(0, 0, width, height);
+  framebuffer_width = width;
+  framebuffer_height = height;
+
+  glfwGetWindowSize(window, &width, &height);
+  window_width = width;
+  window_height = height;
 
   glEnable(GL_BLEND);
   glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 }
+
 
 void WindowManager::shutdown() {
   glfwTerminate();
@@ -56,10 +65,14 @@ void WindowManager::shutdown() {
 
 static void window_size_callback(GLFWwindow* window, int xpos, int ypos) {
   std::cout << "[revork log] Window size: " << xpos << ":" << ypos << std::endl;
+  window_width = xpos;
+  window_height = ypos;
 }
 
 static void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
   std::cout << "[revork log] Framebuffer size: " << width << ":" << height << std::endl;
+  framebuffer_width = width;
+  framebuffer_height = height;
   glViewport(0, 0, width, height);
   camera.update_projection(static_cast<float>(width), static_cast<float>(height));  
 }

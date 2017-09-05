@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.9.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/marcusmathiassen/Revork
+CMAKE_SOURCE_DIR = /Users/mathiassen/Revork
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/marcusmathiassen/Revork/build
+CMAKE_BINARY_DIR = /Users/mathiassen/Revork/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/marcusmathiassen/Revork/build/CMakeFiles /Users/marcusmathiassen/Revork/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mathiassen/Revork/build/CMakeFiles /Users/mathiassen/Revork/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/marcusmathiassen/Revork/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mathiassen/Revork/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -176,6 +176,33 @@ revork/src/camera.s: revork/src/camera.cpp.s
 revork/src/camera.cpp.s:
 	$(MAKE) -f CMakeFiles/revork.dir/build.make CMakeFiles/revork.dir/revork/src/camera.cpp.s
 .PHONY : revork/src/camera.cpp.s
+
+revork/src/config.o: revork/src/config.cpp.o
+
+.PHONY : revork/src/config.o
+
+# target to build an object file
+revork/src/config.cpp.o:
+	$(MAKE) -f CMakeFiles/revork.dir/build.make CMakeFiles/revork.dir/revork/src/config.cpp.o
+.PHONY : revork/src/config.cpp.o
+
+revork/src/config.i: revork/src/config.cpp.i
+
+.PHONY : revork/src/config.i
+
+# target to preprocess a source file
+revork/src/config.cpp.i:
+	$(MAKE) -f CMakeFiles/revork.dir/build.make CMakeFiles/revork.dir/revork/src/config.cpp.i
+.PHONY : revork/src/config.cpp.i
+
+revork/src/config.s: revork/src/config.cpp.s
+
+.PHONY : revork/src/config.s
+
+# target to generate assembly for a file
+revork/src/config.cpp.s:
+	$(MAKE) -f CMakeFiles/revork.dir/build.make CMakeFiles/revork.dir/revork/src/config.cpp.s
+.PHONY : revork/src/config.cpp.s
 
 revork/src/imgui.o: revork/src/imgui.cpp.o
 
@@ -435,6 +462,9 @@ help:
 	@echo "... revork/src/camera.o"
 	@echo "... revork/src/camera.i"
 	@echo "... revork/src/camera.s"
+	@echo "... revork/src/config.o"
+	@echo "... revork/src/config.i"
+	@echo "... revork/src/config.s"
 	@echo "... revork/src/imgui.o"
 	@echo "... revork/src/imgui.i"
 	@echo "... revork/src/imgui.s"

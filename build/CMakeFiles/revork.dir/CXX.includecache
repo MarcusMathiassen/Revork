@@ -164,11 +164,11 @@ GL/glew.h
 GLFW/glfw3.h
 -
 
-/Users/marcusmathiassen/Revork/main.cpp
+/Users/mathiassen/Revork/main.cpp
 revork/revork.h
-/Users/marcusmathiassen/Revork/revork/revork.h
+/Users/mathiassen/Revork/revork/revork.h
 
-/Users/marcusmathiassen/Revork/revork/dep/universal/draw_text.h
+/Users/mathiassen/Revork/revork/dep/universal/draw_text.h
 cassert
 -
 iostream
@@ -196,9 +196,9 @@ glm/gtc/type_ptr.hpp
 ft2build.h
 -
 
-/Users/marcusmathiassen/Revork/revork/dep/universal/stb_image.h
+/Users/mathiassen/Revork/revork/dep/universal/stb_image.h
 stb_image.h
-/Users/marcusmathiassen/Revork/revork/dep/universal/stb_image.h
+/Users/mathiassen/Revork/revork/dep/universal/stb_image.h
 stdio.h
 -
 stdarg.h
@@ -224,25 +224,25 @@ intrin.h
 arm_neon.h
 -
 
-/Users/marcusmathiassen/Revork/revork/revork.h
+/Users/mathiassen/Revork/revork/revork.h
 window_manager.h
-/Users/marcusmathiassen/Revork/revork/window_manager.h
+/Users/mathiassen/Revork/revork/window_manager.h
 renderer/renderer.h
-/Users/marcusmathiassen/Revork/revork/renderer/renderer.h
+/Users/mathiassen/Revork/revork/renderer/renderer.h
 entity/gameobject.h
-/Users/marcusmathiassen/Revork/revork/entity/gameobject.h
+/Users/mathiassen/Revork/revork/entity/gameobject.h
 vector
 -
 
-/Users/marcusmathiassen/Revork/revork/src/./camera.h
+/Users/mathiassen/Revork/revork/src/./camera.h
 glm/glm.hpp
 -
 glm/gtc/matrix_transform.hpp
 -
 
-/Users/marcusmathiassen/Revork/revork/src/./window_manager.h
+/Users/mathiassen/Revork/revork/src/./window_manager.h
 camera.h
-/Users/marcusmathiassen/Revork/revork/src/./camera.h
+/Users/mathiassen/Revork/revork/src/./camera.h
 iostream
 -
 string
@@ -252,9 +252,9 @@ GL/glew.h
 GLFW/glfw3.h
 -
 
-/Users/marcusmathiassen/Revork/revork/src/camera.cpp
+/Users/mathiassen/Revork/revork/src/camera.cpp
 camera.h
-/Users/marcusmathiassen/Revork/revork/src/camera.h
+/Users/mathiassen/Revork/revork/src/camera.h
 glm/glm.hpp
 -
 cmath
@@ -264,23 +264,27 @@ iostream
 glm/gtx/transform.hpp
 -
 
-/Users/marcusmathiassen/Revork/revork/src/camera.h
+/Users/mathiassen/Revork/revork/src/camera.h
 glm/glm.hpp
 -
 glm/gtc/matrix_transform.hpp
 -
 
-/Users/marcusmathiassen/Revork/revork/src/config.h
+/Users/mathiassen/Revork/revork/src/config.cpp
+config.h
+/Users/mathiassen/Revork/revork/src/config.h
 
-/Users/marcusmathiassen/Revork/revork/src/entity/entity.h
+/Users/mathiassen/Revork/revork/src/config.h
 
-/Users/marcusmathiassen/Revork/revork/src/imconfig.h
+/Users/mathiassen/Revork/revork/src/entity/entity.h
 
-/Users/marcusmathiassen/Revork/revork/src/imgui.cpp
+/Users/mathiassen/Revork/revork/src/imconfig.h
+
+/Users/mathiassen/Revork/revork/src/imgui.cpp
 imgui.h
-/Users/marcusmathiassen/Revork/revork/src/imgui.h
+/Users/mathiassen/Revork/revork/src/imgui.h
 imgui_internal.h
-/Users/marcusmathiassen/Revork/revork/src/imgui_internal.h
+/Users/mathiassen/Revork/revork/src/imgui_internal.h
 ctype.h
 -
 stdlib.h
@@ -294,17 +298,17 @@ stddef.h
 stdint.h
 -
 stb_textedit.h
-/Users/marcusmathiassen/Revork/revork/src/stb_textedit.h
+/Users/mathiassen/Revork/revork/src/stb_textedit.h
 windows.h
 -
 imm.h
 -
 imgui_user.inl
-/Users/marcusmathiassen/Revork/revork/src/imgui_user.inl
+/Users/mathiassen/Revork/revork/src/imgui_user.inl
 
-/Users/marcusmathiassen/Revork/revork/src/imgui.h
+/Users/mathiassen/Revork/revork/src/imgui.h
 imconfig.h
-/Users/marcusmathiassen/Revork/revork/src/imconfig.h
+/Users/mathiassen/Revork/revork/src/imconfig.h
 float.h
 -
 stdarg.h
@@ -316,13 +320,13 @@ string.h
 assert.h
 -
 imgui_user.h
-/Users/marcusmathiassen/Revork/revork/src/imgui_user.h
+/Users/mathiassen/Revork/revork/src/imgui_user.h
 
-/Users/marcusmathiassen/Revork/revork/src/imgui_draw.cpp
+/Users/mathiassen/Revork/revork/src/imgui_draw.cpp
 imgui.h
-/Users/marcusmathiassen/Revork/revork/src/imgui.h
+/Users/mathiassen/Revork/revork/src/imgui.h
 imgui_internal.h
-/Users/marcusmathiassen/Revork/revork/src/imgui_internal.h
+/Users/mathiassen/Revork/revork/src/imgui_internal.h
 stdio.h
 -
 malloc.h
@@ -332,15 +336,15 @@ stdlib.h
 alloca.h
 -
 stb_rect_pack.h
-/Users/marcusmathiassen/Revork/revork/src/stb_rect_pack.h
+/Users/mathiassen/Revork/revork/src/stb_rect_pack.h
 stb_truetype.h
-/Users/marcusmathiassen/Revork/revork/src/stb_truetype.h
+/Users/mathiassen/Revork/revork/src/stb_truetype.h
 
-/Users/marcusmathiassen/Revork/revork/src/imgui_impl_glfw_gl3.cpp
+/Users/mathiassen/Revork/revork/src/imgui_impl_glfw_gl3.cpp
 imgui.h
-/Users/marcusmathiassen/Revork/revork/src/imgui.h
+/Users/mathiassen/Revork/revork/src/imgui.h
 imgui_impl_glfw_gl3.h
-/Users/marcusmathiassen/Revork/revork/src/imgui_impl_glfw_gl3.h
+/Users/mathiassen/Revork/revork/src/imgui_impl_glfw_gl3.h
 GL/glew.h
 -
 GLFW/glfw3.h
@@ -348,43 +352,45 @@ GLFW/glfw3.h
 GLFW/glfw3native.h
 -
 
-/Users/marcusmathiassen/Revork/revork/src/imgui_impl_glfw_gl3.h
+/Users/mathiassen/Revork/revork/src/imgui_impl_glfw_gl3.h
 
-/Users/marcusmathiassen/Revork/revork/src/imgui_internal.h
+/Users/mathiassen/Revork/revork/src/imgui_internal.h
 stdio.h
 -
 math.h
 -
 stb_textedit.h
-/Users/marcusmathiassen/Revork/revork/src/stb_textedit.h
+/Users/mathiassen/Revork/revork/src/stb_textedit.h
 
-/Users/marcusmathiassen/Revork/revork/src/input.h
+/Users/mathiassen/Revork/revork/src/input.h
 GLFW/glfw3.h
 -
 camera.h
-/Users/marcusmathiassen/Revork/revork/src/camera.h
+/Users/mathiassen/Revork/revork/src/camera.h
 config.h
-/Users/marcusmathiassen/Revork/revork/src/config.h
+/Users/mathiassen/Revork/revork/src/config.h
 imgui.h
-/Users/marcusmathiassen/Revork/revork/src/imgui.h
+/Users/mathiassen/Revork/revork/src/imgui.h
 imgui_impl_glfw_gl3.h
-/Users/marcusmathiassen/Revork/revork/src/imgui_impl_glfw_gl3.h
+/Users/mathiassen/Revork/revork/src/imgui_impl_glfw_gl3.h
 
-/Users/marcusmathiassen/Revork/revork/src/renderer/renderer.cpp
+/Users/mathiassen/Revork/revork/src/renderer/renderer.cpp
 renderer.h
-/Users/marcusmathiassen/Revork/revork/src/renderer/renderer.h
+/Users/mathiassen/Revork/revork/src/renderer/renderer.h
 ../camera.h
-/Users/marcusmathiassen/Revork/revork/src/camera.h
+/Users/mathiassen/Revork/revork/src/camera.h
+../imgui.h
+/Users/mathiassen/Revork/revork/src/imgui.h
 GL/glew.h
 -
 GLFW/glfw3.h
 -
 
-/Users/marcusmathiassen/Revork/revork/src/renderer/renderer.h
+/Users/mathiassen/Revork/revork/src/renderer/renderer.h
 skybox.h
-/Users/marcusmathiassen/Revork/revork/src/renderer/skybox.h
+/Users/mathiassen/Revork/revork/src/renderer/skybox.h
 ../entity/entity.h
-/Users/marcusmathiassen/Revork/revork/src/entity/entity.h
+/Users/mathiassen/Revork/revork/src/entity/entity.h
 string
 -
 vector
@@ -392,17 +398,17 @@ vector
 glm/glm.hpp
 -
 
-/Users/marcusmathiassen/Revork/revork/src/renderer/shader.cpp
+/Users/mathiassen/Revork/revork/src/renderer/shader.cpp
 shader.h
-/Users/marcusmathiassen/Revork/revork/src/renderer/shader.h
+/Users/mathiassen/Revork/revork/src/renderer/shader.h
 string
 -
 iostream
 -
 
-/Users/marcusmathiassen/Revork/revork/src/renderer/shader.h
+/Users/mathiassen/Revork/revork/src/renderer/shader.h
 utility.h
-/Users/marcusmathiassen/Revork/revork/src/renderer/utility.h
+/Users/mathiassen/Revork/revork/src/renderer/utility.h
 GL/glew.h
 -
 cstdio
@@ -410,19 +416,19 @@ cstdio
 vector
 -
 
-/Users/marcusmathiassen/Revork/revork/src/renderer/skybox.cpp
+/Users/mathiassen/Revork/revork/src/renderer/skybox.cpp
 skybox.h
-/Users/marcusmathiassen/Revork/revork/src/renderer/skybox.h
+/Users/mathiassen/Revork/revork/src/renderer/skybox.h
 texture.h
-/Users/marcusmathiassen/Revork/revork/src/renderer/texture.h
+/Users/mathiassen/Revork/revork/src/renderer/texture.h
 ../camera.h
-/Users/marcusmathiassen/Revork/revork/src/camera.h
+/Users/mathiassen/Revork/revork/src/camera.h
 
-/Users/marcusmathiassen/Revork/revork/src/renderer/skybox.h
+/Users/mathiassen/Revork/revork/src/renderer/skybox.h
 shader.h
-/Users/marcusmathiassen/Revork/revork/src/renderer/shader.h
+/Users/mathiassen/Revork/revork/src/renderer/shader.h
 texture.h
-/Users/marcusmathiassen/Revork/revork/src/renderer/texture.h
+/Users/mathiassen/Revork/revork/src/renderer/texture.h
 iostream
 -
 vector
@@ -434,27 +440,27 @@ GL/glew.h
 GLFW/glfw3.h
 -
 
-/Users/marcusmathiassen/Revork/revork/src/renderer/texture.cpp
+/Users/mathiassen/Revork/revork/src/renderer/texture.cpp
 texture.h
-/Users/marcusmathiassen/Revork/revork/src/renderer/texture.h
+/Users/mathiassen/Revork/revork/src/renderer/texture.h
 cstdio
 -
 GL/glew.h
 -
 
-/Users/marcusmathiassen/Revork/revork/src/renderer/texture.h
+/Users/mathiassen/Revork/revork/src/renderer/texture.h
 ../../dep/universal/stb_image.h
-/Users/marcusmathiassen/Revork/revork/dep/universal/stb_image.h
+/Users/mathiassen/Revork/revork/dep/universal/stb_image.h
 
-/Users/marcusmathiassen/Revork/revork/src/revork.cpp
+/Users/mathiassen/Revork/revork/src/revork.cpp
 ../revork.h
-/Users/marcusmathiassen/Revork/revork/revork.h
+/Users/mathiassen/Revork/revork/revork.h
 camera.h
-/Users/marcusmathiassen/Revork/revork/src/camera.h
+/Users/mathiassen/Revork/revork/src/camera.h
 input.h
-/Users/marcusmathiassen/Revork/revork/src/input.h
+/Users/mathiassen/Revork/revork/src/input.h
 ../dep/universal/draw_text.h
-/Users/marcusmathiassen/Revork/revork/dep/universal/draw_text.h
+/Users/mathiassen/Revork/revork/dep/universal/draw_text.h
 vector
 -
 string
@@ -464,29 +470,29 @@ thread
 glm/glm.hpp
 -
 config.h
-/Users/marcusmathiassen/Revork/revork/src/config.h
+/Users/mathiassen/Revork/revork/src/config.h
 imgui.h
-/Users/marcusmathiassen/Revork/revork/src/imgui.h
+/Users/mathiassen/Revork/revork/src/imgui.h
 imgui_impl_glfw_gl3.h
-/Users/marcusmathiassen/Revork/revork/src/imgui_impl_glfw_gl3.h
+/Users/mathiassen/Revork/revork/src/imgui_impl_glfw_gl3.h
 
-/Users/marcusmathiassen/Revork/revork/src/stb_rect_pack.h
+/Users/mathiassen/Revork/revork/src/stb_rect_pack.h
 stdlib.h
 -
 assert.h
 -
 
-/Users/marcusmathiassen/Revork/revork/src/stb_textedit.h
+/Users/mathiassen/Revork/revork/src/stb_textedit.h
 string.h
 -
 
-/Users/marcusmathiassen/Revork/revork/src/stb_truetype.h
+/Users/mathiassen/Revork/revork/src/stb_truetype.h
 stb_truetype.h
-/Users/marcusmathiassen/Revork/revork/src/stb_truetype.h
+/Users/mathiassen/Revork/revork/src/stb_truetype.h
 stdio.h
 -
 stb_truetype.h
-/Users/marcusmathiassen/Revork/revork/src/stb_truetype.h
+/Users/mathiassen/Revork/revork/src/stb_truetype.h
 math.h
 -
 math.h
@@ -502,11 +508,15 @@ string.h
 memory.h
 -
 
-/Users/marcusmathiassen/Revork/revork/src/window_manager.cpp
+/Users/mathiassen/Revork/revork/src/window_manager.cpp
 ./window_manager.h
-/Users/marcusmathiassen/Revork/revork/src/./window_manager.h
+/Users/mathiassen/Revork/revork/src/./window_manager.h
 ./camera.h
-/Users/marcusmathiassen/Revork/revork/src/./camera.h
+/Users/mathiassen/Revork/revork/src/./camera.h
+imgui.h
+/Users/mathiassen/Revork/revork/src/imgui.h
+config.h
+/Users/mathiassen/Revork/revork/src/config.h
 iostream
 -
 string

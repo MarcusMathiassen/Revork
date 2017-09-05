@@ -47,9 +47,9 @@ static void key_callback(GLFWwindow *window, int key, int scancode, int action, 
 {
     if (key == GLFW_KEY_I && action == GLFW_PRESS) 
     {
-        config::show_menu ^= 1;  
+        show_menu ^= 1;  
         
-        if (config::show_menu)
+        if (show_menu)
             glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);
         else
             glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED); 
@@ -87,12 +87,14 @@ static void cursor_position_callback(GLFWwindow *window, double xpos, double ypo
     last_x = xpos;
     last_y = ypos;
 
-    if (config::show_menu) return;
+    if (show_menu) return;
 
     camera.process_mouse_movement(xoffset, yoffset);
 }
 static void cursor_enter_callback(GLFWwindow *window, int entered) {}
-static void mouse_button_callback(GLFWwindow *window, int button, int action, int mods){}
+static void mouse_button_callback(GLFWwindow *window, int button, int action, int mods)
+{
+}
 static void scroll_callback(GLFWwindow *window, double xoffset, double yoffset)
 {
   camera.process_mouse_scroll(yoffset * 0.01f);

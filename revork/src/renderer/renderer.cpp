@@ -1,5 +1,6 @@
 #include "renderer.h"
 #include "../camera.h"
+#include "../imgui.h"
 
 #define GLEW_STATIC
 #include <GL/glew.h>
@@ -18,6 +19,7 @@ void Renderer::render() {
     entity->draw();
   }
 }
+
 
 void Renderer::set_skybox(const std::vector<std::string> &faces) {
   skybox.faces = faces;
